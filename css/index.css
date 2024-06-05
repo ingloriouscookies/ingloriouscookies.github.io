@@ -4,6 +4,12 @@ body {
     font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
 }
 
+.logo-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .menu-item-table-wrapper {
     width: 100%;
 }
@@ -13,10 +19,15 @@ body {
     border-collapse: collapse;
 }
 
+.menu-item-table > thead {
+    background-color: beige;
+}
+
 .menu-category-header {
     background-color: #501616;
     color: #ffffff;
     padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .price-td {
@@ -31,4 +42,28 @@ body {
 
 .menu-item-description-td {
     text-align: center;
+}
+
+nav {
+    background-color: #e6f2ff;
+    padding: 10px;
+}
+
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav > ul > li {
+    display: inline;
+}
+
+.from-the-oven-div {
+    text-align: center;
+}
+
+.from-the-oven-div > h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #501616;
 }
